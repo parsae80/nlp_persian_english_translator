@@ -260,7 +260,7 @@ transformer = keras.Model(
     [encoder_inputs, decoder_inputs], decoder_outputs, name="transformer"
 )
 
-epochs = 30  
+epochs = 15  
 
 transformer.summary()
 transformer.compile(
